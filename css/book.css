@@ -1,0 +1,394 @@
+/* NAV */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+html,
+body {
+  
+    font-family: 'Ubuntu'!important;
+
+  }
+nav .navbar-nav li a {
+    color: #000000 !important;
+}
+
+#show{
+  background:black;
+}
+
+.nav-link {
+    margin-right: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+    /* border-bottom: solid 1px red; */
+  }
+
+  .btn-nav {
+    /* margin-right: 120px; */
+    margin-top: 19px;
+}
+
+.nav-btn {
+  color: #ffffff;
+  background-color: #2196F3;
+  padding: 03px 35px !important;
+  font-size: 16px !important;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+}
+
+.nav-btn:hover {
+    background-color: #28B446;
+}
+
+/* CHOOSE_TRIP */
+
+.section-trip {
+    background-color: #ffffff; 
+}
+
+  .dropdown-btn-block {
+    display: flex;
+  }
+
+  
+
+  .dropdown {
+      margin-left: 10px;
+  }
+
+  .decre-btn {
+    width: 0px;
+    margin-right: 40px;
+    
+  }
+
+  button.incre-btn:focus {
+      outline: 0;
+  }
+
+  .incre-btn {
+      border: none;
+      color: transparent;
+      background-color: transparent;
+  }
+
+  button.decre-btn:focus {
+      outline: 0;
+  
+  }
+  
+  
+
+  #form-input {
+    display: flex;
+  }
+
+  #form2 {
+      display: none;
+  }
+
+  .form-control {
+    /* position: absolute; */
+    
+  }
+  .form-group {
+    margin-left: 10px;
+}
+  .image-form {
+    
+    margin-top: -67px;
+   
+    border-right: 1px solid none;
+    border-left: 1px solid #ced4da;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    padding: 10px 7px;
+    border-bottom-left-radius: 4px !important;
+    border-top-left-radius: 4px !important;
+    /* position: relative; */
+  }
+
+  .input--primary {
+    width: 70%;
+    padding: 06px 04px;
+    margin-left: 20px !important;
+    outline: none !important;
+    border-right:1px solid #ced4da;
+    border-left:none !important;
+    border-top: 1px solid #ced4da;
+    border-bottom: 1px solid #ced4da;
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-right-radius: 4px !important;
+    border-top-right-radius: 4px !important;
+  }
+  
+
+  .span-img{
+   margin-right: 30px;
+    
+}
+
+.book{
+  width: 460px;
+height: 15px;
+left: 580px;
+top: 300px;
+border: 1px solid #52616B;
+}
+.add-text{
+  color: #518EF8;
+}
+
+  #from-grp {
+      display: flex;
+      margin-left: 07px;
+  }
+  
+  .form-btn {
+    background-color: #2196F3;
+    margin-left: 15px;
+    padding: 3px 28px;
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+  }
+
+  .form-btn-2 {
+    background-color: #2196F3;
+  margin-left: 10px;
+  padding: 6px 38px;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+}
+  
+  .form-btn-2:hover {
+    background-color: #28B446;
+  }
+  
+  .form-input {
+    padding: 6px 42px;
+  }
+
+  
+  
+  
+
+/* DETAIL */
+
+.section-detail {
+  background-color: #EAEAF5;
+  height: 30rem;
+}
+
+.level {
+  display: flex;
+  margin-left: 11rem;
+}
+
+.text-right {
+ 
+}
+
+.text-left {
+  margin-left: 30px;
+}
+
+.leftcard, .middlecard, .rightcard {
+  background-color: #ffffff;
+  width: 350px;
+  height: 120px;
+  margin-top: 20px;
+}
+
+.image-detail {
+  padding-top: 10px;
+  
+}
+
+.right-below{
+  width: 350px;
+height: 80px;
+margin-top:70px;
+background: #FFFFFF;
+border-radius: 4px;
+}
+
+.right-text{
+color: #52616B;
+font-size: 16px;
+width:150px;
+margin-left:95px;
+margin-top:70px;
+}
+
+
+
+.leftdate {
+  font-weight: 500 !important;
+}
+
+.leftdate, .image-detail, .location {
+  margin-left: 20px;
+}
+
+.rightcard {
+  text-align: center;
+  height: 200px;
+}
+
+.detail-btn {
+  color: #ffffff;
+  background-color: #2196F3;
+  padding: 05px 85px !important;
+  font-size: 16px !important;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.24), 0px 0px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  border: none;
+  margin-top: 10px;
+}
+
+.detail-btn:hover {
+  background-color: #28B446;
+}
+
+.right-heading {
+  font-size: 18px;
+  padding-top: 10px;
+  font-weight: 500;
+}
+
+.number {
+  /* padding-top: 20px !important; */
+}
+
+.price {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+
+.departure {
+  margin-left: 20px;
+  display: flex;
+}
+
+.time {
+
+}
+
+.form-cont{
+  margin-left: 30px;
+}
+
+.form-check {
+  margin-left: 05px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #000000;
+    
+}
+
+.footer-container {
+    padding-top: 40px;
+}
+
+
+.footer-text {
+    color: #ffffff;
+}
+
+.footer-heading {
+    font-size: 25px;
+}
+
+.footer-paragraph {
+    font-size: 12px;
+}
+
+
+
+.form-control-lg{
+    border-radius: 0px !important;
+    width: 22rem; 
+}
+
+.footer-input {
+    border: 1px solid#2196F3;
+    padding: 11px 50px;
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+/* Just added this to enable me commit */
+
+/* MEDIA QUERY */
+
+@media (max-width: 1024px) {
+  .form-btn-2 {
+    padding: 05px 28px !important;
+  }
+
+  .form-group {
+    margin-left: 0px;
+}
+}
+
+@media (max-width: 992px) {
+  .image-form {
+    margin-top: -0px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .form-btn-2 {
+      padding: 05px 108px !important;
+      margin-left: 0px;
+}
+
+.input--primary {
+  width: 60%;
+}
+.section-detail {
+  height: 34rem;
+}
+
+.choose-trip {
+  border: 1px solid #ffffff;
+  height: 20rem;
+  width: 44rem;
+  
+}
+
+}
+
+@media (max-width: 576px) {
+  .form-btn-2 {
+    padding: 05px 83px !important;
+    margin-left: 0px;
+}
+.leftdate {
+  margin-left: 40px;
+}
+
+}
+
+@media (max-width: 447px) {
+  .form-btn-2 {
+    padding: 05px 55px !important;
+    margin-left: 0px;
+}
+}
+
+#secondlocation, #return, #datepicker2, #seat1, #pass2{
+  text-align: center;
+}
